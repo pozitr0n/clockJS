@@ -1,0 +1,12 @@
+{
+    "name" : "My clock", 
+    "version" : "1.0", 
+    "description" : "This is a simple chrome extention",
+    "background_page" : "background.html",
+
+    "browser_action" : {
+        "default_title" : "My clock", 
+        "default_icon" : "img/icon_world.png", 
+        "default_popup" : "popup.html"
+    }
+}
